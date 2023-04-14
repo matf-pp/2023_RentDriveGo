@@ -7,11 +7,11 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/alEmail"
         android:layout_width="209dp"
         android:layout_height="61dp"
         android:layout_marginStart="101dp"
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="200dp"
         android:layout_marginEnd="101dp"
         android:autoText="false"
         android:ems="10"
@@ -20,53 +20,31 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/alPassword"
         android:layout_width="206dp"
         android:layout_height="68dp"
         android:layout_marginStart="101dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="101dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="99dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="156dp"
-        android:layout_marginTop="141dp"
-        android:layout_marginEnd="156dp"
-        android:autoText="false"
-        android:text="RentDriveGo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/alEmail" />
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/alLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="105dp"
-        android:layout_marginTop="47dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="40dp"
         android:text="Login"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
+        app:layout_constraintTop_toBottomOf="@+id/alPassword" />
 
-    <Button
-        android:id="@+id/register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="47dp"
-        android:layout_marginEnd="101dp"
-        android:text="Register"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
 </androidx.constraintlayout.widget.ConstraintLayout>
