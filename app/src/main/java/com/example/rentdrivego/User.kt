@@ -1,4 +1,5 @@
 package com.example.rentdrivego
 
-class User {
+
+class User (){
 }

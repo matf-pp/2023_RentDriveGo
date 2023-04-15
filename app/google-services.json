@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "804181055651",
+    "firebase_url": "https://users-rentdrivego-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "users-rentdrivego",
+    "storage_bucket": "users-rentdrivego.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804181055651:android:b553eed0d8ea47f9cb4716",
+        "android_client_info": {
+          "package_name": "com.example.rentdrivego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804181055651-hspftfc5a3p801ago52tabdek53i1g6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJqinRFP-AOJt8YMNbkt6akiQ8DzTe1OY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804181055651-hspftfc5a3p801ago52tabdek53i1g6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

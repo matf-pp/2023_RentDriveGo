@@ -4,8 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.EditText
-import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,16 +13,18 @@ class MainActivity : AppCompatActivity() {
         val amLogin:Button = findViewById(R.id.amLogin)
         val amRegister:Button = findViewById(R.id.amRegister)
 
-
+        //Ako se pritisne dugme za prijavljivanje(Salje se na sledecu stranu LoginActivity):
         amLogin.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
 
+        //Ako se pritisne dugme za registraciju(Salje se na sledecu stranu RegisterActivity):
         amRegister.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
 
     }
+
 }
